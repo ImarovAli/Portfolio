@@ -1,4 +1,6 @@
-text-align: center;
+
+HTML{
+    scroll-behavior: smooth;
 }
 .hugetext{
     font-size: 6rem;
@@ -25,7 +27,7 @@ h1, h2{
     height: 100vh;
     display: flex;
     background-color: #000000;
-    color: #000000;
+    color: #ffffff;
 }
 .aboutme{
     position: absolute;
@@ -49,6 +51,7 @@ h1, h2{
 body{
     margin: 0;
     color: #000000;
+
 }
 img{
     width: 70%;
@@ -84,3 +87,15 @@ h1{
     top: 130px;
     left: calc(50% + 180px);
     background: white;
+    nav{
+        border: 1px solid #C5FF95 ;
+        margin: 20px 50px;
+        border-radius: 50px;
+        width: calc(100% - 100px);
+        color: #C5FF95;
+        background-color: #074173;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        /*position: fixed;*/
+    }
