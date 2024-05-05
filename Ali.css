@@ -1,112 +1,198 @@
 
-HTML{
-    scroll-behavior: smooth;
+body{
+color: 4F6F52;
+ margin: 0;
+    background-color: 4F6F52;
 }
-.hugetext{
-    font-size: 6rem;
+section{
+    min-height: 95vh;
+    background-color: 4F6F52;
+}
+.hero{
+     scroll-behavior: smooth; 
+    background-color: 4F6F52;
+    color: 1A4D2E;
+    display: flex;
+}
+.korobka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+}
+.korobka2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 45%;
+    height: 95vh;
+
+}
+h1{
+    color: 4F6F52;
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    margin: 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textcenter{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+.w50{
+    width: 30%;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#contactme{
+    padding: 50px;
+    color:#030637;
+    background-color: #910A67;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+
+
+
+.logo{
+    text color: E8DFCA;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.link{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #910A67;
+}
+nav{
+    
+    color: 4F6F52;
+    margin: 0px 0px;
+    width: calc(100% - 100px);
+    color: 4F6F52;
+    background-color: #030637;
+    align-items: center;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 30px;
+    color: black;
+}
+
+
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 600px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #3C0753 ;
+    background-color: 1A4D2E;
+}
+img{
+    z-index: 2;
+}
+
+#myprojects{
+    padding: 150px 0;
+}
+.card{
+    width: 500px;
+    background-color: #910A67;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.h3{
+    color: #030637;
 }
 .w100{
     width: 100%;
 }
-h1, h2{
-    margin: 0 0 15px 0;
-    color: E8DFCA;
-}
-.btn{
-    color: white;
-    background-color: black;
+.cardbtn{
     text-decoration: none;
-    font-size: .875rem;
-    padding: 7px 30px 7px 30px;
-    margin-top: 20px;
-    border-radius: 10px;
+    width: 500px;
+    display: block;
+    margin: 0 150px;
 }
-.btn:hover{
-    background-color: darkslategrey;
-}
-.hero{
-    height: 100vh;
+.dflex{
     display: flex;
-    background-color: 1A4D2E;
-    color: #ffffff;
 }
-.aboutme{
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-    margin-top: -200px;
-    height: 100vh;
-    display: flex;
-    background-color: #6420AA;
-    color: #FFB5DA;
+.w80{
+    width: 80%;
 }
-.korobka{
-    padding: 0 150px 0 100px;
-    text-align: center;
-    width: 45%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.chiutnizhe{
+    margin-top: 450px;
 }
-body{
-    margin: 0;
-    color: #000000;
+
+
+
+@media only screen and (max-width: 600px) {
 
 }
-img{
-    width: 70%;
-    z-index: 2;
-    rotate: 5deg;
+#aboutme{
+    background-color: #910A67;
 }
-h1{
-    font-size: 100px;
+.chto{
+   text-align: center;
+   display: block;
 }
-.prizrak{
-    width: 120px;
-    position: absolute;
-    
+.about{
+    text-align: center;
+    top: 50%;
 }
-.t300{
-    top: 300px;
+#myskills{
+    background-color: #030637;
 }
-.t400{
-    top: 400px;
+.kto {
+    text-align: center;
+    top:50%
 }
-.t500{
-    top: 500px;
+.ling{
+    text-decoration: underline;
+    font-weight: 600;
 }
-.t600{
-    top: 600px;
-}
-.krug{
-    rotate: 5deg;
-    z-index: 1;
-    position: absolute;
-    height: 900px;
-    width: 520px;
-    top: 130px;
-    left: calc(50% + 180px);
-    background: white;
-}
-nav{
-       
-        margin: 0px 0px;
-    
-        width: 100%
-        color: #C5FF95;
-        background-color: 4F6F52;
-        display: flex;
-        align-items: center;
-        height: 60px;
-        /*position: fixed;*/
-    }
-a{
-    margin: 25px;
-    text-decoration: none ;
-        color: E8DFCA;
-}
-b{
-    margin: 25px;
-    color: E8DFCA;
+.progress-bar {
+    background: rgb(26,77,46);
+    background: linear-gradient(90deg, rgba(26,77,46,1) 35%, rgba(79,111,82,1) 53%, rgba(232,223,202,1) 100%);
 }
